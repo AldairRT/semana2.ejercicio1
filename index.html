@@ -6,6 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <title>Proyecto 1</title>
+  <meta name="descripcion" content="mi primera pagina web by Aldair Rodriguez" />
+  <meta name="keywords" content="portafolio, programacion, web, Aldair, Rodriguez" />
+  <meta property="og:title" itemprop="Headline" content="Portafolio-Aldair">
+  <meta property="og:description" itemprop="description"
+    content="pagina web sobre portafolio de Aldair Rodriguez, creada en conjunto con el programa codiGo">
+  <meta property="og:image" itemprop="image" content="https://aldairrt.github.io/semana2.proyecto1/images/image.png">
+  <meta property="og:url" itemprop="url" content="https://aldairrt.github.io/semana2.proyecto1/">
   <style>
     .skills {
       background-color: #7299FE;
@@ -52,6 +59,9 @@
 </head>
 
 <body>
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous"
+    src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v4.0"></script>
   <div class="wrapper">
     <main>
       <!--Banner-->
@@ -67,7 +77,10 @@
               <a href="#">Twitter</a>
             </li>
             <li>
-              <a href="#">Facebook</a>
+              <div class="fb-share-button" data-href="https://aldairrt.github.io/semana2.proyecto1/"
+                data-layout="button_count" data-size="large"><a target="_blank"
+                  href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Faldairrt.github.io%2Fsemana2.proyecto1%2F&amp;src=sdkpreparse"
+                  class="fb-xfbml-parse-ignore">Compartir</a></div>
             </li>
           </ul>
         </nav>
